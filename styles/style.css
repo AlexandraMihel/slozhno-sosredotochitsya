@@ -150,13 +150,13 @@
 
 .main__section {
   display: grid;
-  gap: 15px;
+  gap: 20px;
 }
 
 .main__section-title {
   color: var(--section-text-color);
   font-weight: 700;
-  font-size: inherit;
+  font-size: var(--main-font-size);
   line-height: inherit;
 }
 
@@ -170,13 +170,18 @@
 
 .text__decor {
   color: var(--subtitle-color, #000028);
+  font-size: var(--main-font-size);
   line-height: inherit;
   background: var(--accent-color, #ff0070);
 }
 
 .main__section-lists {
   display: grid;
-  gap: 20px;
+  gap: 18px;
+}
+
+.section__galery {
+  gap: 12px;
 }
 
 .main__section-article {
@@ -185,7 +190,7 @@
 }
 
 .main__advice-title {
-  margin-block-end: 20px;
+  margin-block-end: 17px;
 }
 
 .main__section-subtitle {
@@ -283,7 +288,7 @@
   }
 
   .main__section-lists {
-    gap: 19px;
+    gap: 18px;
   }
 
   .section__galery {
@@ -327,10 +332,14 @@
   .main__section-info {
     padding-right: 2px;
   }
+
   .header__title {
     margin-inline-start: 0;
   }
 
+  .main__section {
+    gap: 20px;
+  }
 }
 
 @media (width >=1024px) {
@@ -362,7 +371,7 @@
     padding-right: 0px;
   }
 
-  .header__title{
+  .header__title {
     margin-inline-start: 0px;
   }
 }
