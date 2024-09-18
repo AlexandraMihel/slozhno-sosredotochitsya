@@ -177,7 +177,7 @@
 
 .main__section-lists {
   display: grid;
-  gap: 27px;
+  gap: 28px;
 }
 
 .section__galery {
@@ -186,7 +186,7 @@
 
 .main__section-article {
   display: grid;
-  gap: 10px;
+  gap: 11px;
 }
 
 .main__advice-title {
@@ -239,6 +239,9 @@
   .rec {
     top: 20px;
     right: 28px;
+  }
+  .main__section-article {
+    gap: 10px;
   }
 
   .cover {
