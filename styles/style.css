@@ -3,7 +3,6 @@
 .page {
   color: var(--text-color);
   font-family: var(--main-font-family);
-  font-size: var(--main-font-size);
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--bg-color);
   background-image: var(--bg-image);
@@ -136,7 +135,7 @@
   margin-block: 55px;
   color: var(--subtitle-color, #000028);
   font-weight: 700;
-  font-size: inherit;
+  font-size: var(--main-font-size);
   line-height: inherit;
   background: var(--accent-color, #ff0070);
 }
@@ -165,13 +164,12 @@
   color: var(--text-color);
   font-family: var(--main-font-family);
   font-weight: 400;
-  font-size: inherit;
+  font-size: var(--main-font-size);
   line-height: inherit;
 }
 
 .text__decor {
   color: var(--subtitle-color, #000028);
-  font-size: inherit;
   line-height: inherit;
   background: var(--accent-color, #ff0070);
 }
