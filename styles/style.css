@@ -181,7 +181,7 @@
 }
 
 .section__galery {
-  gap: 12px;
+  gap: 10px;
 }
 
 .main__section-article {
@@ -190,7 +190,7 @@
 }
 
 .main__advice-title {
-  margin-block-end: 17px;
+  margin-block-end: 19px;
 }
 
 .main__section-subtitle {
@@ -199,7 +199,7 @@
 
 .main__section-galery {
   display: grid;
-  gap: 10px;
+  gap: 20px;
 }
 
 .main__section-image {
