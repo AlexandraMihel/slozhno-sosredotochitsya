@@ -177,7 +177,7 @@
 
 .main__section-lists {
   display: grid;
-  gap: 27px;
+  gap: 25px;
 }
 
 .section__galery {
@@ -371,6 +371,6 @@
     margin-inline-start: 0px;
   }
   .main__section-lists {
-    gap: 20px;
+    gap: 22px;
   }
 }
