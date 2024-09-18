@@ -177,7 +177,7 @@
 
 .main__section-lists {
   display: grid;
-  gap: 22px;
+  gap: 24px;
 }
 
 .section__galery {
@@ -286,10 +286,6 @@
 
   .main__what-lists {
     grid-column-start: span 2;
-  }
-
-  .main__section-lists {
-    gap: 18px;
   }
 
   .section__galery {
