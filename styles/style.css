@@ -177,7 +177,7 @@
 
 .main__section-lists {
   display: grid;
-  gap: 24px;
+  gap: 27px;
 }
 
 .section__galery {
@@ -249,7 +249,9 @@
     padding-inline-start: 0;
   }
 
-
+  .main__section-lists {
+    gap: 24px;
+  }
   .page__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -367,5 +369,8 @@
 
   .header__title {
     margin-inline-start: 0px;
+  }
+  .main__section-lists {
+    gap: 20px;
   }
 }
