@@ -70,11 +70,12 @@
 }
 
 .page__title {
+  display: flex;
   color: var(--title-color, #db00ff);
   font-weight: 700;
-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+  text-shadow: 4px 4px 0px var(--title-shadow-color);
 }
 
 /* header */
@@ -240,7 +241,9 @@ font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   .cover {
     min-block-size: 1024px;
   }
-
+  .page-title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
   .header {
     padding-inline-start: 0;
   }
@@ -328,6 +331,10 @@ font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   .main__section-info {
     padding-right: 2px;
   }
+  .header__title {
+    margin-inline-start: 0;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
 
 }
 
@@ -358,5 +365,10 @@ font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 
   .main__section-info {
     padding-right: 0px;
+  }
+
+  .header__title{
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-inline-start: -20px;
   }
 }
