@@ -71,9 +71,9 @@
 
 .page__title {
   display: flex;
-  color: var(--title-color, #db00ff);
+  color: var(--title-color);
   font-weight: 700;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: clamp(7.25rem, 5.9939rem + 5.3595vw, 9.8125rem);
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--title-shadow-color);
 }
@@ -134,7 +134,7 @@
 
 .header__info-text {
   margin-block: 55px;
-  color: var(--highlight-color, #000028);
+  color: var(--subtitle-color, #000028);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
@@ -170,7 +170,7 @@
 }
 
 .text__decor {
-  color: var(--highlight-color, #000028);
+  color: var(--subtitle-color, #000028);
   font-size: inherit;
   line-height: inherit;
   background: var(--accent-color, #ff0070);
@@ -333,7 +333,6 @@
   }
   .header__title {
     margin-inline-start: 0;
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
 }
@@ -368,7 +367,6 @@
   }
 
   .header__title{
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-inline-start: -20px;
+    margin-inline-start: 0px;
   }
 }
